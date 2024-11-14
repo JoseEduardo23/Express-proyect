@@ -1,0 +1,4 @@
+//Evita que los archivos puestos aqui no se suban.
+
+node_modules
+.env
