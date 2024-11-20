@@ -4,19 +4,7 @@
       "name": "Tour Cuenca",
       "price": 250,
       "status": "active",
-      "id": "f61f"
-    },
-    {
-      "name": "Tour Cuenca",
-      "price": 250,
-      "status": "active",
       "id": "a84b"
-    },
-    {
-      "name": "Tour Manabi",
-      "price": 225,
-      "status": "active",
-      "id": "95d9"
     },
     {
       "name": "Tour Baños de agua santa",
@@ -25,10 +13,10 @@
       "id": "dd71"
     },
     {
-      "id": "0768",
       "name": "Tour Esmeraldas",
-      "price": 220,
-      "status": "active"
+      "price": 210,
+      "status": "active",
+      "id": "0768"
     }
   ],
   "USERS": []
