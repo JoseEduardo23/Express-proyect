@@ -21,7 +21,7 @@ const createTourController = async (req,res) =>{
     }
     try{
         const tour = await tourModel.createTourModel(newTourData)
-        res.status(201).json(tour)
+        res.status(200).json(tour)
     }catch(error){
         res.status(500).json(error)
     }
@@ -40,8 +40,8 @@ const updatedTourController = async (req,res) =>{
 const deleteTourModel = async (req,res) =>{
     const{id} = req.params
     try{
-        const tour = await tourModel.deleteTourModel(id,req.doby)
-        res.status(200).json({msg:"Tour eliminado correctamente"})
+        const message = await tourModel.deleteTourModel(id,req.doby)
+        res.status(200).json(message,{msg:"Tour eliminado correctamente"})
     }catch(error){
         res.status(500).json(error)
     }

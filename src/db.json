@@ -17,7 +17,46 @@
       "price": 210,
       "status": "active",
       "id": "0768"
+    },
+    {
+      "id": "b78c",
+      "name": "Tour Francia",
+      "price": 200,
+      "status": "active"
+    },
+    {
+      "id": "706e",
+      "name": "Tour Babahoyo",
+      "price": 200,
+      "status": "active"
+    },
+    {
+      "id": "402ee180-079a-4e2e-ab92-351beed53b9c",
+      "name": "Tour France",
+      "price": 250,
+      "status": "active"
+    },
+    {
+      "id": "f33e7b36-95bd-43a9-b577-73f4447fae8e",
+      "name": "Tour Malaga",
+      "price": 250,
+      "status": "active"
     }
   ],
-  "USERS": []
+  "USERS": [
+    {
+      "id": "1",
+      "name": "Jose",
+      "username": "JoseE",
+      "email": "je20042316@gmail.com",
+      "password": "sistemas"
+    },
+    {
+      "id": "27a26b03-42da-4be8-bb13-9fe2d746e590",
+      "password": "$2b$10$TcYcz.s9WJhAhEh2av1Dteyyijm8YAKFJULa5fJD8bWdZMEbnox0y",
+      "name": "Ale",
+      "username": "Ale",
+      "email": "Ale@gmail.com"
+    }
+  ]
 }

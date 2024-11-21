@@ -1,4 +1,8 @@
 //Metodo que permite obtener los tours e la base de datos.
+
+
+//Obtener los modelos
+
 //1. MODELO
 const tourModel = {
     async getALLtoursModel() {
@@ -17,13 +21,15 @@ const tourModel = {
     //CREAR
     async createTourModel(newModel){
         //1.Conexion a la BDD
-        const urls = "http://localhost:4000/TOURS"
+        const url = "http://localhost:4000/TOURS"
+
         //2.Enviar datos
         const peticion = await fetch(url,{
             method:"POST",
             body:JSON.stringify(newModel),
             headers:{"Content-Type":"application/json"}
         })
+        
         //3.Obtener respuesta
         const data = await peticion.json()
 
@@ -93,10 +99,9 @@ const tourModel = {
 } 
 
 
-
-
-
-
 }
+
+
+
 //Exporta una sola cosa en este caso un ejemplo
 export default tourModel
