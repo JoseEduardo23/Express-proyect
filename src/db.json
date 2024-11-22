@@ -41,6 +41,57 @@
       "name": "Tour Malaga",
       "price": 250,
       "status": "active"
+    },
+    {
+      "id": "982c",
+      "name": "Tour Roma",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "6579",
+      "name": "Tour Suiza",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "5fbf",
+      "name": "Tour Rusia",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "ea4c",
+      "name": "Tour Rusia",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "2e81",
+      "name": "Tour Mockba",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "9765",
+      "name": "Tour Austria",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "524b",
+      "name": "Tour Cuba",
+      "price": 1250,
+      "status": "active"
+    },
+    {
+      "id": "05fe4c11-bbb5-4643-afe5-7f739e550bb4"
+    },
+    {
+      "id": "96934db0-f22a-4531-baf3-00426e8095a9",
+      "name": "Tour Cuba",
+      "price": 1250,
+      "status": "active"
     }
   ],
   "USERS": [
@@ -52,11 +103,11 @@
       "password": "sistemas"
     },
     {
-      "id": "27a26b03-42da-4be8-bb13-9fe2d746e590",
-      "password": "$2b$10$TcYcz.s9WJhAhEh2av1Dteyyijm8YAKFJULa5fJD8bWdZMEbnox0y",
-      "name": "Ale",
-      "username": "Ale",
-      "email": "Ale@gmail.com"
+      "id": "0665b4b8-9b84-45fd-a85e-33293f269fdd",
+      "password": "$2b$10$4b6V6SgA/.7FEJT9Iioe0.o1R7eMEciHtqQGJm8J.N26axm1oT7Ja",
+      "name": "Jose",
+      "username": "JoseL",
+      "email": "jose@gmail.com"
     }
   ]
 }
